@@ -1,0 +1,15 @@
+<!-- templates/error.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Error</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container error">
+        <h1>Error Processing Request</h1>
+        <p>{{ message }}</p>
+        <a href="/">Try Again</a>
+    </div>
+</body>
+</html>

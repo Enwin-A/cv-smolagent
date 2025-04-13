@@ -1,0 +1,31 @@
+<!-- templates/index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CV Analysis</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Upload CV (PDF)</h1>
+        <form method="POST" action="/upload" enctype="multipart/form-data">
+            <div class="form-group">
+                <label for="summary">Provide a brief summary about yourself:</label>
+                <textarea id="summary" name="summary" rows="4" required></textarea>
+            </div>
+            
+            <div class="form-group">
+                <label for="experience">List your relevant experience:</label>
+                <textarea id="experience" name="experience" rows="4" required></textarea>
+            </div>
+
+            <div class="file-upload">
+                <label>Upload PDF CV:</label>
+                <input type="file" name="file" accept=".pdf" required>
+            </div>
+
+            <button type="submit">Analyze CV</button>
+        </form>
+    </div>
+</body>
+</html>

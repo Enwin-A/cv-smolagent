@@ -1,0 +1,135 @@
+{
+  "personal_details": {
+    "name": "First Last",
+    "email": "first.last@gmail.com",
+    "phone": "+44 1234567890"
+  },
+  "education": [
+    {
+      "institution": "University of New York",
+      "degree": "Bachelor of Science in Computer Science",
+      "dates": "10/2011 - 06/2014",
+      "details": "New York City, New York"
+    }
+  ],
+  "work_experience": [
+    {
+      "company": "Resume Worded",
+      "role": "Senior Software Engineer",
+      "duration": "08/2021 \u2013 Present",
+      "description": "Spearheaded digital card API in NodeJS; Conducted robotics seminars; Managed 10-person team; Created automated test framework"
+    },
+    {
+      "company": "Polyhire",
+      "role": "IT Development Manager",
+      "duration": "10/2019 \u2013 07/2021",
+      "description": "Supervised software project upgrade; Relocated business operations; Developed innovative systems; Resolved client issues"
+    },
+    {
+      "company": "Growthsi",
+      "role": "Technical Support Supervisor",
+      "duration": "06/2018 \u2013 09/2019",
+      "description": "Streamlined business operations; Initiated new support techniques; Supervised technical support; Conducted customer spot-checks"
+    },
+    {
+      "company": "ABC Company",
+      "role": "Technical Support Specialist",
+      "duration": "11/2017 \u2013 05/2018",
+      "description": ""
+    },
+    {
+      "company": "XYZ Company",
+      "role": "System Admin",
+      "duration": "01/2016 \u2013 10/2017",
+      "description": ""
+    },
+    {
+      "company": "ABC",
+      "role": "Software Analyst (Internship)",
+      "duration": "07/2014 \u2013 12/2015",
+      "description": ""
+    }
+  ],
+  "skills": [
+    {
+      "category": "Development Technologies",
+      "items": [
+        "Groovy",
+        "Perl",
+        "ASP.NET",
+        "Javascript",
+        "Grails",
+        "Java"
+      ]
+    },
+    {
+      "category": "Server Environments",
+      "items": [
+        "Apache HTTP Server",
+        "Microsoft IIS",
+        "Apache Tomcat"
+      ]
+    },
+    {
+      "category": "Tools and Software",
+      "items": [
+        "IntelliJ",
+        "Code Collaborator",
+        "Subversion",
+        "Microsoft Excel"
+      ]
+    },
+    {
+      "category": "Languages",
+      "items": [
+        "English (Native)",
+        "Romanian (Native)",
+        "Spanish (Conversational)"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Digital Card API",
+      "description": "Created digital walled passes for 2000+ clients",
+      "technologies": [
+        "NodeJS"
+      ],
+      "link": ""
+    },
+    {
+      "name": "Human Body Recognition Software",
+      "description": "Leveraged multi-depth sensors with proprietary computer vision",
+      "technologies": [
+        "Computer Vision"
+      ],
+      "link": ""
+    },
+    {
+      "name": "Automated Test Framework",
+      "description": "Accounts for 1500+ automated tests across 60+ REST endpoints",
+      "technologies": [
+        "Testing"
+      ],
+      "link": ""
+    }
+  ],
+  "analysis": {
+    "summary": "",
+    "sentiment_score": 0.5,
+    "sentiment_breakdown": {
+      "Positive": 75.0,
+      "Neutral": 20.0,
+      "Negative": 5.0
+    },
+    "improvements": [
+      "Professional Summary: Experienced Senior Software Engineer with expertise in various programming languages and technologies. Strong background in team management, system development, and technical support across multiple industries.",
+      "Sentiment Score: 0.85",
+      "Sentiment Breakdown:",
+      "Key Improvements:",
+      "Add more details about specific technical achievements in previous roles",
+      "Include measurable impacts for earlier positions",
+      "Expand on leadership experiences and team management strategies"
+    ]
+  }
+}
