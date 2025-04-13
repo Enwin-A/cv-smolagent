@@ -1,0 +1,183 @@
+{
+  "personal_details": {
+    "name": "Enwin Anson",
+    "email": "enwinanson@gmail.com",
+    "phone": "+46768985364"
+  },
+  "education": [
+    {
+      "institution": "J\u00f6nk\u00f6ping University",
+      "degree": "Masters in AI Engineering",
+      "dates": "2024-2026",
+      "details": "Ongoing Semester 1"
+    },
+    {
+      "institution": "Christ University",
+      "degree": "BTech CSE (Honors in AIML)",
+      "dates": "2020-2024",
+      "details": "CGPA 8.85"
+    }
+  ],
+  "work_experience": [
+    {
+      "company": "RealAML",
+      "role": "Full Stack Dev + AI",
+      "duration": "June 2024 - Present",
+      "description": "Working remotely on impactful projects like integrating automation tools (Zapier, Annature) and leading AI efforts"
+    },
+    {
+      "company": "ECHO",
+      "role": "Data Science Engineer",
+      "duration": "December 2023 - June 2024",
+      "description": "Python automation, Jenkins pipelines, Selenium, data analysis, and machine learning models"
+    },
+    {
+      "company": "Nandi Toyota",
+      "role": "Summer Intern - Data Science",
+      "duration": "May 2023 - June 2023",
+      "description": "Developed web scraper with UI using Selenium, Python, Flask"
+    },
+    {
+      "company": "Vehpal FZ LLC",
+      "role": "Summer Intern - Web Dev",
+      "duration": "May 2022 - July 2022",
+      "description": "Worked on front-end development of website"
+    }
+  ],
+  "skills": [
+    {
+      "category": "Programming",
+      "items": [
+        "Python",
+        "C",
+        "Java",
+        "PHP"
+      ]
+    },
+    {
+      "category": "Web Development",
+      "items": [
+        "Flask",
+        "Django(DRF)",
+        "React",
+        "TypeScript"
+      ]
+    },
+    {
+      "category": "Data Science",
+      "items": [
+        "Machine Learning",
+        "Data Engineering",
+        "Pipelines"
+      ]
+    },
+    {
+      "category": "Tools",
+      "items": [
+        "Selenium",
+        "Jenkins",
+        "Docker",
+        "AWS",
+        "Figma",
+        "Adobe Photoshop"
+      ]
+    },
+    {
+      "category": "Databases",
+      "items": [
+        "SQL",
+        "SSMS",
+        "PSQL"
+      ]
+    },
+    {
+      "category": "Other",
+      "items": [
+        "UI/UX",
+        "Automation",
+        "Business Analytics"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Complaint Management System",
+      "description": "Full-scale system with backend",
+      "technologies": [
+        "PHP",
+        "MySQL",
+        "XAMP"
+      ],
+      "link": ""
+    },
+    {
+      "name": "LSTM Neural Network",
+      "description": "URL classification",
+      "technologies": [
+        "Python"
+      ],
+      "link": "https://github.com/Enwin-A/LSTM"
+    },
+    {
+      "name": "Responsive Websites",
+      "description": "Turned one into mobile app",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JS"
+      ],
+      "link": "https://github.com/Enwin-A/ZenGarden"
+    },
+    {
+      "name": "Product Matcher",
+      "description": "Robust product matching system",
+      "technologies": [
+        "Python"
+      ],
+      "link": "github.com/Enwin-A/Product-Matcher1"
+    },
+    {
+      "name": "Basic Blog",
+      "description": "Full stack CRUD Application",
+      "technologies": [
+        "Built in under 24 hours"
+      ],
+      "link": "https://github.com/Enwin-A/Basic-Blog"
+    },
+    {
+      "name": "Audio Processing Tool",
+      "description": "Processes MP3 files for analysis",
+      "technologies": [
+        "Python"
+      ],
+      "link": "https://github.com/Enwin-A/Audio-App"
+    },
+    {
+      "name": "PDF Chat Application",
+      "description": "Answers questions based on PDF context",
+      "technologies": [
+        "React",
+        "Django"
+      ],
+      "link": "github.com/Enwin-A/pdf-chat-application"
+    }
+  ],
+  "analysis": {
+    "summary": "",
+    "sentiment_score": 0.5,
+    "sentiment_breakdown": {
+      "Positive": 80.0,
+      "Neutral": 15.0,
+      "Negative": 5.0
+    },
+    "improvements": [
+      "Professional Summary: Highly skilled Full Stack Developer with AI expertise, currently pursuing Master's in AI. Strong background in data science, web development, and machine learning. Proven ability to deliver impactful projects in fast-paced environments.",
+      "Sentiment Score: 0.85",
+      "Sentiment Breakdown:",
+      "Key Improvements:",
+      "Could expand on specific technical achievements in work experience",
+      "Include more quantifiable results in project descriptions",
+      "Consider adding language proficiency if applicable"
+    ]
+  }
+}

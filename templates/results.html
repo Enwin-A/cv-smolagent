@@ -1,0 +1,21 @@
+<!-- templates/results.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Analysis Results</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>CV Analysis Results</h1>
+        <div class="results">
+            <h3>Structured Data:</h3>
+            <pre>{{ data }}</pre>
+            {% if json_path %}
+            <p>JSON saved to: {{ json_path }}</p>
+            {% endif %}
+        </div>
+        <a href="/">Upload Another</a>
+    </div>
+</body>
+</html>

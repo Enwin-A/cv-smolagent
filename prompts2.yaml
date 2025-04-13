@@ -1,0 +1,43 @@
+cv_extraction: |
+  Extract CV data in EXACTLY this structure, DO NOT change the format or add any extra text:
+  NOTE VERY IMPORTANT AND ALWAYS FOLLOW: Never use the variable "exp" for anything expecially in code, example: instead of "for exp in work_experience:" do  "for experience in work_experience:"
+  
+  ### PERSONAL DETAILS ###
+  - Name: [Full Name]
+  - Email: [Email]
+  - Phone: [Phone Number]
+  
+  ### EDUCATION ###
+  - [Institution] | [Degree] | [Dates] | [Additional Info]
+  
+  ### WORK EXPERIENCE ###
+  - [Company] | [Role] | [Duration] | [Description]
+  
+  ### SKILLS ###
+  - [Category]: [Skill 1], [Skill 2], [Skill 3]
+  
+  ### PROJECTS ###
+  - [Project Name] | [Description] | [Technologies] | [Link]
+  
+  ### ANALYSIS ###
+  - Professional Summary: [2-3 sentence summary]
+  - Sentiment Score: [0.0-1.0]
+  - Sentiment Breakdown:
+    Positive: [00-100]% 
+    Neutral: [00-100]%
+    Negative: [00-100]%
+  - Key Improvements:
+    - [Improvement 1]
+    - [Improvement 2]
+    - [Improvement 3]
+  
+  RULES:
+  1. Maintain exact section headers
+  2. Use pipes (|) as separators
+  3. One entry per line
+  4. Include all sections
+  5. Percentages must sum to 100%
+  6. Never use the variable "exp" for anything expecially in code, example: instead of "for exp in work_experience:" do  "for experience in work_experience:"
+  
+  CV Content: {cv_text}
+  User Inputs: {summary_text} {experience_text}
